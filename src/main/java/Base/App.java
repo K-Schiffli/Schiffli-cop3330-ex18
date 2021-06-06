@@ -93,8 +93,6 @@ public class App {
         else if (convChoice.equals("Celsius")) choiceInv = "Fahrenheit";
         else choiceInv = "SELECTION FAILURE";
 
-
-
         System.out.printf("The temperature in %s is %s", choiceInv, tempFormatted);
     }
 }
